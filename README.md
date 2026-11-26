@@ -39,7 +39,7 @@
 
 ## Проекты
 
-### 01. [RequestFlow](https://github.com/MarinaBalakina/RequestFlow)
+### [![01. RequestFlow](https://img.shields.io/badge/01.%20RequestFlow-70263D?style=for-the-badge)](https://github.com/MarinaBalakina/RequestFlow)
 
 **Микросервисная система контроля частоты запросов к API**
 
@@ -59,11 +59,11 @@
 
 **Стек:** C# · .NET · PostgreSQL · MongoDB · Redis · Kafka · gRPC · Dapper · Docker
 
-[Подробнее о проекте →](https://github.com/MarinaBalakina/RequestFlow)
+[![Подробнее о проекте](https://img.shields.io/badge/Подробнее%20о%20проекте%20%E2%86%92-70263D?style=flat-square)](https://github.com/MarinaBalakina/RequestFlow)
 
 ---
 
-### 02. [Car Management System](https://github.com/MarinaBalakina/drive-flow-backend)
+### [![02. Car Management System](https://img.shields.io/badge/02.%20Car%20Management%20System-70263D?style=for-the-badge)](https://github.com/MarinaBalakina/drive-flow-backend)
 
 **Backend-система управления автосалоном**
 
@@ -82,11 +82,11 @@
 
 **Стек:** Java · Spring Boot · Spring Data JPA · Hibernate · Spring Security · PostgreSQL · gRPC · Docker
 
-[Подробнее о проекте →](https://github.com/MarinaBalakina/drive-flow-backend)
+[![Подробнее о проекте](https://img.shields.io/badge/Подробнее%20о%20проекте%20%E2%86%92-70263D?style=flat-square)](https://github.com/MarinaBalakina/drive-flow-backend)
 
 ---
 
-### 03. [C# OOP Projects](https://github.com/MarinaBalakina/csharp-oop-projects)
+### [![03. C# OOP Projects](https://img.shields.io/badge/03.%20C%23%20OOP%20Projects-70263D?style=for-the-badge)](https://github.com/MarinaBalakina/csharp-oop-projects)
 
 **Коллекция проектов по объектно-ориентированному программированию и проектированию приложений на C#**
 
@@ -96,11 +96,11 @@
 
 | Проект | Функциональность | Основные навыки |
 | --- | --- | --- |
-| Симулятор транспортных маршрутов | Моделирование движения поездов, прохождения маршрутов и проверки ограничений скорости | ООП, инкапсуляция, полиморфизм, композиция |
-| Корпоративная система сообщений | Распределение сообщений между адресатами, фильтрация, логирование, архивирование и уведомления | SOLID, GRASP, структурные паттерны, mocking |
-| Симулятор сражений | Создание игровых существ, применение модификаторов и заклинаний, моделирование боёв | Порождающие и структурные паттерны, расширяемость кода |
-| Файловый менеджер | Навигация по файловой системе, обработка консольных команд и управление файлами | Поведенческие паттерны, SOLID, парсинг команд, ленивая загрузка |
-| Система банкомата | Управление счетами, пользовательскими сессиями, балансом и историей финансовых операций | ASP.NET Web API, гексагональная архитектура, DI, Repository |
+| ![Симулятор поездов](https://img.shields.io/badge/Симулятор%20поездов-70263D?style=flat-square) | Моделирование движения поездов, прохождения маршрутов и проверки ограничений скорости | ООП, инкапсуляция, полиморфизм, композиция |
+| ![Система сообщений](https://img.shields.io/badge/Система%20сообщений-70263D?style=flat-square) | Распределение сообщений между адресатами, фильтрация, логирование, архивирование и уведомления | SOLID, GRASP, структурные паттерны, mocking |
+| ![Симулятор сражений](https://img.shields.io/badge/Симулятор%20сражений-70263D?style=flat-square) | Создание игровых существ, применение модификаторов и заклинаний, моделирование боёв | Порождающие и структурные паттерны, расширяемость кода |
+| ![Файловый менеджер](https://img.shields.io/badge/Файловый%20менеджер-70263D?style=flat-square) | Навигация по файловой системе, обработка консольных команд и управление файлами | Поведенческие паттерны, SOLID, парсинг команд, ленивая загрузка |
+| ![Система банкомата](https://img.shields.io/badge/Система%20банкомата-70263D?style=flat-square) | Управление счетами, пользовательскими сессиями, балансом и историей финансовых операций | ASP.NET Web API, гексагональная архитектура, DI, Repository |
 
 Отдельное внимание уделено разделению ответственности между классами, снижению связанности компонентов, возможности расширения функциональности и тестированию бизнес-логики.
 
@@ -108,11 +108,11 @@
 
 **Стек:** C# · .NET · ASP.NET Core · ООП · SOLID · GRASP · Design Patterns · Hexagonal Architecture · Unit Testing · Mocking
 
-[Подробнее о проектах →](https://github.com/MarinaBalakina/csharp-oop-projects)
+[![Подробнее о проектах](https://img.shields.io/badge/Подробнее%20о%20проектах%20%E2%86%92-70263D?style=flat-square)](https://github.com/MarinaBalakina/csharp-oop-projects)
 
 ---
 
 ## Контакты
 
-[![Telegram](https://img.shields.io/badge/Telegram-70263D?style=flat-square)](https://t.me/Dealer7920)
-[![Email](https://img.shields.io/badge/Email-70263D?style=flat-square)](mailto:marinabalakina132@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-70263D?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Dealer7920)
+[![Email](https://img.shields.io/badge/Email-70263D?style=flat-square&logo=gmail&logoColor=white)](mailto:marinabalakina132@gmail.com)
