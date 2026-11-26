@@ -1,8 +1,8 @@
 
 # Марина Балакина
 
-![Backend Developer](https://img.shields.io/badge/Backend-Developer-722F37?style=flat-square)
-![ITMO University](https://img.shields.io/badge/ITMO-University-722F37?style=flat-square)
+![Backend Developer](https://img.shields.io/badge/Backend%20Developer-70263D?style=flat-square)
+![ITMO University](https://img.shields.io/badge/ITMO%20University-70263D?style=flat-square)
 
 ## Обо мне
 
@@ -18,10 +18,10 @@
 
 ## Технологический стек
 
-![C#](https://img.shields.io/badge/C%23-722F37?style=flat-square)
-![.NET](https://img.shields.io/badge/.NET-722F37?style=flat-square)
-![Java](https://img.shields.io/badge/Java-722F37?style=flat-square)
-![SQL](https://img.shields.io/badge/SQL-722F37?style=flat-square)
+![C#](https://img.shields.io/badge/C%23-70263D?style=flat-square)
+![.NET](https://img.shields.io/badge/.NET-70263D?style=flat-square)
+![Java](https://img.shields.io/badge/Java-70263D?style=flat-square)
+![SQL](https://img.shields.io/badge/SQL-70263D?style=flat-square)
 
 | Направление | Технологии и навыки |
 | --- | --- |
@@ -29,8 +29,10 @@
 | Базы данных | PostgreSQL, MongoDB, Redis |
 | Работа с данными | Dapper, Hibernate, Spring Data JPA |
 | Взаимодействие | REST API, gRPC, Apache Kafka |
-| Архитектура | Microservices, Hexagonal Architecture, SOLID, ООП, Design Patterns |
-| Разработка | Dependency Injection, асинхронное программирование, тестирование |
+| Архитектура | Microservices, Hexagonal Architecture |
+| Проектирование | ООП, SOLID, GRASP, Design Patterns |
+| Разработка | Dependency Injection, асинхронное программирование, потокобезопасность |
+| Тестирование | Unit Testing, Integration Testing, Mocking |
 | Инструменты | Docker, Git, Bash, Gradle |
 
 ---
@@ -46,15 +48,16 @@
 В проекте реализованы:
 
 - управление пользователями через gRPC API;
+- хранение пользовательских данных в PostgreSQL;
 - асинхронная обработка событий через Apache Kafka;
 - потокобезопасный подсчёт количества запросов;
 - динамическое обновление ограничений через MongoDB Change Streams;
 - временные блокировки через Redis с TTL;
 - проверка запросов через gRPC Interceptors.
 
-Командный проект, в рамках которого я также занималась планированием и координацией разработки.
+Командный проект, в рамках которого я также занималась планированием, распределением задач и координацией разработки.
 
-**Стек:** C# · .NET · PostgreSQL · MongoDB · Redis · Kafka · gRPC · Docker
+**Стек:** C# · .NET · PostgreSQL · MongoDB · Redis · Kafka · gRPC · Dapper · Docker
 
 [Подробнее о проекте →](https://github.com/MarinaBalakina/RequestFlow)
 
@@ -74,7 +77,8 @@
 - аутентификация и ролевое разграничение доступа;
 - микросервисная архитектура;
 - асинхронное взаимодействие через брокер сообщений;
-- Transactional Outbox и межсервисное взаимодействие через gRPC.
+- надёжная отправка событий через Transactional Outbox;
+- межсервисное взаимодействие через gRPC.
 
 **Стек:** Java · Spring Boot · Spring Data JPA · Hibernate · Spring Security · PostgreSQL · gRPC · Docker
 
@@ -82,28 +86,33 @@
 
 ---
 
-### 03. ATM System
+### 03. [C# OOP Projects](https://github.com/MarinaBalakina/csharp-oop-projects)
 
-**Backend-система банкомата**
+**Коллекция проектов по объектно-ориентированному программированию и проектированию приложений на C#**
 
-Система для управления банковскими счетами, пользовательскими сессиями и финансовыми операциями.
+Серия из пяти проектов, направленных на практическое изучение принципов ООП, SOLID, GRASP, паттернов проектирования, тестирования и архитектуры приложений.
 
-В проекте реализованы:
+Каждый проект посвящён отдельной предметной области и подходам к организации кода.
 
-- Web API для работы с банковскими счетами;
-- управление пользовательскими сессиями;
-- выполнение финансовых операций;
-- гексагональная архитектура;
-- внедрение зависимостей через Dependency Injection;
-- модульное тестирование бизнес-логики с использованием моков.
+| Проект | Функциональность | Основные навыки |
+| --- | --- | --- |
+| Симулятор транспортных маршрутов | Моделирование движения поездов, прохождения маршрутов и проверки ограничений скорости | ООП, инкапсуляция, полиморфизм, композиция |
+| Корпоративная система сообщений | Распределение сообщений между адресатами, фильтрация, логирование, архивирование и уведомления | SOLID, GRASP, структурные паттерны, mocking |
+| Симулятор сражений | Создание игровых существ, применение модификаторов и заклинаний, моделирование боёв | Порождающие и структурные паттерны, расширяемость кода |
+| Файловый менеджер | Навигация по файловой системе, обработка консольных команд и управление файлами | Поведенческие паттерны, SOLID, парсинг команд, ленивая загрузка |
+| Система банкомата | Управление счетами, пользовательскими сессиями, балансом и историей финансовых операций | ASP.NET Web API, гексагональная архитектура, DI, Repository |
 
-**Стек:** C# · ASP.NET Core · Web API · Dependency Injection · Hexagonal Architecture
+Отдельное внимание уделено разделению ответственности между классами, снижению связанности компонентов, возможности расширения функциональности и тестированию бизнес-логики.
 
-<!-- Здесь будет ссылка на репозиторий -->
+В проекте банкомата бизнес-логика отделена от слоя представления и хранения данных. Для взаимодействия с приложением используется ASP.NET Web API, для управления зависимостями — Dependency Injection.
+
+**Стек:** C# · .NET · ASP.NET Core · ООП · SOLID · GRASP · Design Patterns · Hexagonal Architecture · Unit Testing · Mocking
+
+[Подробнее о проектах →](https://github.com/MarinaBalakina/csharp-oop-projects)
 
 ---
 
 ## Контакты
 
-[![Telegram](https://img.shields.io/badge/Telegram-722F37?style=flat-square)](https://t.me/Dealer7920)
-[![Email](https://img.shields.io/badge/Email-722F37?style=flat-square)](mailto:marinabalakina132@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-70263D?style=flat-square)](https://t.me/Dealer7920)
+[![Email](https://img.shields.io/badge/Email-70263D?style=flat-square)](mailto:marinabalakina132@gmail.com)
